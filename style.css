@@ -1,0 +1,483 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    }
+    
+    header {
+    background-color: #0077c2;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    }
+    
+    nav ul {
+    list-style: none;
+    display: flex;
+    }
+    
+    nav ul li {
+    margin-right: 20px;
+    }
+    
+    nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    }
+    
+    nav ul li a:hover {
+    text-decoration: underline;
+    }
+    
+    .logo img {
+        width: 400px;
+        height: auto;
+        margin-right: 20px;
+      }
+      
+
+    .header-content {
+    text-align: center;
+    max-width: 800px;
+    margin-top: 50px;
+    }
+    
+    .header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    }
+    
+    .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #0077c2;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+    }
+    
+    .btn:hover {
+    background-color: #0077c2;
+    color: #fff;
+    }
+    
+    .services {
+    max-width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    }
+    
+    .service-item {
+    max-width: 300px;
+    margin: 0 20px;
+    text-align: center;
+    }
+    
+    .service-item img {
+    width: 100%;
+    margin-bottom: 20px;
+    }
+    
+    .service-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    }
+    
+    .service-item p {
+    margin-bottom: 20px;
+    }
+    
+    .about-us {
+    background-color: #f2f2f2;
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 50px;
+    text-align: center;
+    }
+    
+    .contact {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    }
+    
+    .contact form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+    }
+    
+    .contact form label {
+    margin-bottom: 10px;
+    }
+    
+    .contact form input,
+    .contact form textarea {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    }
+    
+    .contact form textarea {
+    height: 150px;
+    }
+    
+    .contact form button[type="submit"] {
+    background-color: #0077c2;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    }
+    
+    .contact form button[type="submit"]:hover {
+    background-color: #00599c;
+    }
+
+    /* Estilos para el pie de página */
+footer {
+background-color: #333;
+color: #fff;
+padding: 20px 0;
+}
+
+.footer-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+}
+
+.footer-content p {
+margin: 0;
+}
+
+.footer-content ul {
+list-style: none;
+margin: 0;
+padding: 0;
+display: flex;
+}
+
+.footer-content li {
+margin-left: 20px;
+}
+
+.footer-content a {
+color: #fff;
+text-decoration: none;
+font-weight: bold;
+}
+
+.footer-content a:hover {
+text-decoration: underline;
+}
+
+/* footer */
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    }
+    
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    
+    .footer-content p {
+    margin: 0;
+    }
+    
+    .footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    .footer-content li {
+    margin-left: 20px;
+    }
+    
+    .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    }
+    
+    .footer-content a:hover {
+    text-decoration: underline;
+    }
+
+    /* Estilos para la sección Nosotros */
+.about {
+    background-color: #f2f2f2;
+    padding: 80px 0;
+    }
+    
+    .about h1 {
+    font-size: 40px;
+    margin-bottom: 30px;
+    }
+    
+    .about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    }
+    
+    /* Estilos para el contenido del pie de página */
+    .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    }
+    
+    .footer-content p {
+    margin: 0;
+    font-size: 16px;
+    }
+    
+    .footer-content ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    }
+    
+    .footer-content li {
+    margin-left: 20px;
+    }
+    
+    .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    }
+    
+    .footer-content a:hover {
+    text-decoration: underline;
+    }
+    
+    /* Estilos para el formulario de contacto */
+.contact-form {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input, textarea {
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0069d9;
+  }
+  
+  /* Estilos para la información de contacto */
+  .contact-info {
+    margin-top: 40px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 16px;
+  }
+  
+  .contact-info ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-info ul li strong {
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  /* Estilos para el footer */
+  footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .footer-content p {
+    font-size: 14px;
+    margin: 0;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+  }
+  
+  .footer-content ul li {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-content ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .footer-content a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .footer-content a:hover {
+    color: #007bff;
+  }
+  
+  /* Estilo para el enlace activo */
+.activo a {
+    color: #1C1C1C;
+    background-color: #F6EFEF;
+    border-radius: 10px;
+  }
+  
+  /* Estilo para todos los enlaces a de la navegación */
+  .navegacion a {
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 30px;
+    font-size: 1.2rem;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para los enlaces a de la navegación al pasar el mouse por encima */
+  .navegacion a:hover {
+    color: #F6EFEF;
+  }
+
+  /* Estilo para la sección de proyectos */
+.proyectos {
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  /* Estilo para cada proyecto */
+  .proyecto {
+    width: 30%;
+    margin-bottom: 50px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para la imagen de cada proyecto */
+  .proyectos img {
+    width: auto;
+    display: flexbox;
+    gap: 20px;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  /* Estilo para el título de cada proyecto */
+  .proyecto h3 {
+    margin: 0;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #1C1C1C;
+    color: #F6EFEF;
+  }
+  
+  /* Estilo para cada proyecto al pasar el mouse por encima */
+  .proyecto:hover {
+    transform: translateY(-5px);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+  }
+  /* Estilo para el footer de proyectos */
+footer {
+    background-color: #1C1C1C;
+    color: #F6EFEF;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Estilo para el texto del footer */
+  footer p {
+    margin: 0;
+  }
+  
+  /* Estilo para el enlace del footer */
+  footer a {
+    color: #F6EFEF;
+    text-decoration: none;
+    transition: all 0.3s ease;
+  }
+  
+  /* Estilo para el enlace del footer al pasar el mouse por encima */
+  footer a:hover {
+    color: #FFB400;
+  }
+  

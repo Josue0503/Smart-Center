@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto - Smart Center</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+     
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="servicios.html">Servicios</a></li>
+          <li><a href="nosotros.html">Nosotros</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+          <li><a href="Proyectos.html">Proyectos entregados</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="contact">
+    <div class="container">
+      <h1>Contacto</h1>
+      <p>Si deseas contactarnos para obtener más información sobre nuestros servicios, puedes hacerlo a través del siguiente formulario o mediante cualquiera de los métodos de contacto proporcionados.</p>
+
+      <form method="post" action="enviar.php">
+
+        <div class="form-group">
+          <label for="nombre">Nombre completo *</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="correo">Correo electrónico *</label>
+          <input type="email" id="correo" name="correo" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje *</label>
+          <textarea id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div class="contact-info">
+        <h2>Información de contacto</h2>
+        <ul>
+          <li><strong>Teléfono:</strong> +1 (555) 555-5555</li>
+          <li><strong>Correo electrónico:</strong> info@smartcenter.com</li>
+          <li><strong>Dirección:</strong> 123 Main Street, Ciudad, Estado, CP</li>
+        </ul>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>Derechos de autor © 2023 Smart Center. Todos los derechos reservados.</p>
+        <ul>
+          <li><a href="#">Política de privacidad</a></li>
+          <li><a href="#">Términos de servicio</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
